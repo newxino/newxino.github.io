@@ -1,0 +1,315 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "3.8.2",
+    "uniqCompNum": 13,
+    "versionPublish": "3.8.5",
+    "name": "Povrat poreza",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#efefef",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#3d8eb9",
+        "infoColor": "#efefef",
+        "warningColor": "#efefef",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      }
+    },
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/PC/Desktop/maloooo"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header1-i",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/plumbing-1103725-2000x1328-95.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "TIG-MONT",
+          "text": "<span style=\"font-style: normal;\">\"</span><span style=\"font-style: normal;\">&nbsp;</span>we continue where others can't<span style=\"font-style: normal;\">! \"<br></span><br><span style=\"font-weight: bold; font-style: normal;\"><a href=\"index.html#content5-m\" class=\"text-warning\">ABOUT US</a>&nbsp;| <a href=\"index.html#gallery3-8\" class=\"text-warning\">GALLERY</a> | <a href=\"index.html#form1-c\" class=\"text-warning\">CONTACT US</a> |&nbsp;<a href=\"index.html#contacts2-9\" class=\"text-warning\">LOCATION</a></span><b style=\"font-style: normal;\"><br></b>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#form1-a\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a> "
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "right"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-m",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-1469389335181-2198b4caa734-2000x1501-93.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "ABOUT US",
+          "caption": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">We provide new installations, refurbishments and reactive maintenance for all types of buildings including, hotels, restaurants, service stations, shops, schools, office buildings, factories, churches and more...&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">At TIG-MONT we take pride in our service. TIG-MONT has total commitment to quality and customer service through our highly skilled workforce.&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">We can offer plumbing service, installation of central heating, ventilation and a variety of INOX equipment.</span></p>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/construction-370585-1920-2000x1333-9-2000x1333-81.jpg",
+                "image": "@PROJECT_PATH@/assets/images/construction-370585-1920-2000x1333-9.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/industry-970151-960-720-2000x1122-85-2000x1122-96.jpg",
+                "image": "@PROJECT_PATH@/assets/images/industry-970151-960-720-2000x1122-85.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/industry-silo-ventilation-pipe-2000x1333-79-2000x1333-51.jpg",
+                "image": "@PROJECT_PATH@/assets/images/industry-silo-ventilation-pipe-2000x1333-79.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/solar-872591-1920-2000x1500-71-2000x1500-43.jpg",
+                "image": "@PROJECT_PATH@/assets/images/solar-872591-1920-2000x1500-71.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/solar-energy-868663-1920-2000x1125-24-2000x1125-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/solar-energy-868663-1920-2000x1125-24.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/tube-898660-1920-2000x1247-71-2000x1247-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tube-898660-1920-2000x1247-71.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/tubing-1555009-1920-2000x1330-83-2000x1330-91.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tubing-1555009-1920-2000x1330-83.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/photo-1441802763029-b621005a04a5-2000x1262-67-2000x1262-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-1441802763029-b621005a04a5-2000x1262-67.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": 1,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#efefef",
+            "filterBgColor": true,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery3-8",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#efefef"
+            },
+            ".mbr-section-title": {
+              "color": "#efefef"
+            }
+          },
+          "_anchor": "form1-c",
+          "_params": {
+            "labelsColor": "#efefef",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/women-740664-1920-2000x1333-15.jpg",
+            "bgColor": "#3d8eb9",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT US",
+          "subtitle": "",
+          "form": {
+            "action": "new.xino@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#232323"
+            },
+            "STRONG": {
+              "color": "#1e1e1e"
+            }
+          },
+          "_anchor": "contacts2-9",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Supilova ul. 21, 51300, Delnice, Croatia\n",
+              "placeId": "ChIJf4huf36FZEcR8KqlOuzcPmk",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>Supilova 21<br>51300 Delnice<br>Croatia<br><br>\n<strong>Contacts</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alen Cule</span><br>Email: a.cule@gmx.de<br>\nPhone: 0049 954868184685&nbsp;<br>Phone: 00385 45641515153<br>",
+          "text2": "<br><ul><br><br><br></ul>"
+        }
+      ]
+    }
+  }
+}
