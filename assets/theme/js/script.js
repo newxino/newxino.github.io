@@ -397,7 +397,7 @@
                 $('input[name=animation]').remove();
 
                 var $animatedElements = $('p, h1, h2, h3, h4, h5, a, button, small, img, li, blockquote, .mbr-author-name, em, label, input, textarea, .input-group, .iconbox, .btn-social, .mbr-figure, .mbr-map, .mbr-testimonial .card-block, .mbr-price-value, .mbr-price-figure, .dataTable, .dataTables_info').not(function() {
-                    return $(this).parents().is('.navbar, .mbr-arrow, footer, .iconbox, .mbr-slider, .mbr-gallery, .mbr-testimonial .card-block, #cookiesdirective, .mbr-wowslider, .accordion, .tab-content, .engine, .extFooter1');
+                    return $(this).parents().is('.navbar, .mbr-arrow, footer, .iconbox, .mbr-slider, .mbr-gallery, .mbr-testimonial .card-block, #cookiesdirective, .mbr-wowslider, .accordion, .tab-content, .engine, .extFooter1, #scrollToTop');
                 }).addClass('hidden animated');
 
                 function getElementOffset(element) {
@@ -473,8 +473,9 @@
     }
     });
 
-    //Fix menu for All Mobile phones
-    if($.isMobile()){
+    //Fix menu only for the Opera Mini
+    var isOperaMini = (navigator.userAgent.indexOf('Opera Mini') > -1);
+    if(isOperaMini){
         $('.hamburger-icon').css({'width':'30px', 'height':'3px', 'background-color':'#ffffff', 'box-shadow':'none', 'position':'relative'}).addClass('hamburger-om');
     }
 
@@ -487,7 +488,7 @@
         var e = document.createElement("section");
         e.id = "top-1";
         e.className = "engine";
-        e.innerHTML = '<a href="https://mobirise.com">mobirise.com</a> Mobirise v3.8.5';
+        e.innerHTML = '<a href="https://mobirise.com">mobirise.com</a> Mobirise v3.9.0';
         document.body.insertBefore(e, document.body.childNodes[0]);
     }
 }();
